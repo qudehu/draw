@@ -1,1 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T09:13:17.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.5.6" etag="7AEWbR0juBmIuAKac_L9" type="github"><diagram id="EnjMwxKqODsPiEFubNMf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-24T14:56:41.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="vH8JOTZ9zSB-NmU6HPCp" version="15.5.6" type="github">
+  <diagram id="EnjMwxKqODsPiEFubNMf" name="第 1 页">
+    <mxGraphModel dx="726" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="std3o0mty6T0JQ5iTIgh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-2" target="std3o0mty6T0JQ5iTIgh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-2" value="入口&lt;br&gt;@EnableTransactionManagement" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#330000;strokeColor=#330000;labelBorderColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-4" target="std3o0mty6T0JQ5iTIgh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-4" value="接口&lt;br&gt;EnableTransactionManagement的注解&lt;br&gt;@Import(TransactionManagementConfigurationSelector.class)" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=#330000;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-9" target="std3o0mty6T0JQ5iTIgh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-9" value="TransactionManagementConfigurationSelector#selectImports" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=#330000;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="840" y="395" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-11" target="std3o0mty6T0JQ5iTIgh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-15" value="AutoProxyRegistrar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="std3o0mty6T0JQ5iTIgh-14">
+          <mxGeometry x="0.3882" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-11" target="std3o0mty6T0JQ5iTIgh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-11" value="注册了AutoProxyRegistrar和&lt;br&gt;ProxyTransactionManagementConfiguration" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=#330000;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="390" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-13" target="std3o0mty6T0JQ5iTIgh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-13" value="实现自己向容器里注册BeanDefinition--&lt;br&gt;拿到所有注解类型、获取属性信息并找到候选的注解" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=#330000;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="230" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-16" target="std3o0mty6T0JQ5iTIgh-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-23" value="父类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="std3o0mty6T0JQ5iTIgh-22">
+          <mxGeometry x="-0.0667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-16" target="std3o0mty6T0JQ5iTIgh-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-16" value="ProxyTransactionManagementConfiguration是&lt;br&gt;一个配置类&lt;br&gt;其定义了事务的核心：Advisor、基于事务的核心属性源、事务拦截器" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=#330000;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="525" width="290" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-18" value="AopConfigUtils.registerAutoProxyCreatorIfNecessary&lt;br&gt;创建自动代理创建器&lt;br&gt;如果和AOP的冲突，则会进行覆盖，以AOP为准" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=#330000;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="250" width="315" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-20" value="ProxyTransactionManagementConfiguration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="470" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-21" value="他的父类是一个抽象类&lt;br&gt;给注解一个默认的事务管理器并通过事件监听实现事务的监控" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=#330000;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="536.25" width="195" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-24" target="std3o0mty6T0JQ5iTIgh-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-24" target="std3o0mty6T0JQ5iTIgh-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-24" target="std3o0mty6T0JQ5iTIgh-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2040" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-24" target="std3o0mty6T0JQ5iTIgh-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-24" value="transactionAdvisor中定义了BeanFactoryTransactionAttributeSourceAdvisor，它是一个和Bean工厂和事务都有关系的Advisor" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=default;strokeWidth=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1514.0600000000002" y="650" width="281.87" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-29" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;setTransactionAttributeSource&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;手动设置属性源&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=#330000;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1670.01" y="800" width="209.99" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-32" target="std3o0mty6T0JQ5iTIgh-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-32" value="&lt;div style=&quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;TransactionAttributeSourcePointcut切面&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=default;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="800" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-34" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;setClassFilter&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;执行classFilter，为true时匹配所有类&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=default;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1910.01" y="800" width="259.99" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-36" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;getPointcut&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span&gt;就是使用这个切点去切入&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=default;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="800" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-38" target="std3o0mty6T0JQ5iTIgh-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="std3o0mty6T0JQ5iTIgh-38" target="std3o0mty6T0JQ5iTIgh-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-38" value="决定了那些类需要生成代理对象从而应用事务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1428" y="940" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-40" value="matches-方法的匹配&lt;br&gt;如果实现了这三个接口的子类&lt;div&gt;                TransactionalProxy、&lt;span&gt;PlatformTransactionManager、&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;                PersistenceExceptionTranslator就不需要进行代理了，&lt;span&gt;同时会匹配事务属性源，没有拿到则所有方法都匹配，拿到了则对@Transaction进行匹配&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1080" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-42" value="&lt;div&gt;                getTransactionAttributeSource-&lt;/div&gt;&lt;div&gt;获取事务属性源&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#330000;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1550.01" y="1080" width="179.99" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="std3o0mty6T0JQ5iTIgh-44" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;关于matches方法的调用时机：只要是容器内的每个Bean，都会经过AbstractAutoProxyCreator#&lt;/font&gt;&lt;span style=&quot;color: rgb(127 , 132 , 142) ; font-style: italic&quot;&gt;postProcessAfterInitialization从而会调用wrapIfNecessary方法，因此容器内所有的Bean的所有方法在容器启动时候都会执行此matche方法，因此请注意缓存的使用~~~~~&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1250" width="409" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
