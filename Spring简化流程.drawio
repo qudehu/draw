@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T14:39:53.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="G3cORZC9mfJrtqWY_IzP" version="15.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-28T14:45:43.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="hJLwRhi0h9sGTCd3IPwc" version="15.6.1" type="github">
   <diagram id="xfx5DvELZFT4wy8bLo-e" name="第 1 页">
     <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,6 +316,21 @@
         </mxCell>
         <mxCell id="1uW27xJzZ47Ek0QODWsl-72" value="扩展点" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="970" y="-280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1uW27xJzZ47Ek0QODWsl-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.567;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mwWmsGYRI-4Dez6pMQhU-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="1130" as="sourcePoint" />
+            <mxPoint x="1820" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1uW27xJzZ47Ek0QODWsl-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="1uW27xJzZ47Ek0QODWsl-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1930" y="1070" as="sourcePoint" />
+            <mxPoint x="1820" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1uW27xJzZ47Ek0QODWsl-75" value="BeanFactory和ApplicationContext的异同点：&lt;br&gt;相同点：都可以生产Bean&lt;br&gt;不同点：&lt;br&gt;1：ApplicationContext可以扫描配置信息，可以管理Spring上下文生命周期，具有事件、扫描器，读取器、扩展点、国际化等功能，可以更好的服务我们的功能&lt;br&gt;2：对于BeanFactory而言，只能生产Bean，并且如果要生产类的话，还需要一个一个的去注册BeanDefinition" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1110" width="440" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
