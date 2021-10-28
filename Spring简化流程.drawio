@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T14:26:02.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="8X7VXLE7cQQ4ZtkPd7Vc" version="15.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-28T14:32:04.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="JA8ZLIvQMO1bAgxN_iVw" version="15.6.1" type="github">
   <diagram id="xfx5DvELZFT4wy8bLo-e" name="第 1 页">
     <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,10 +135,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1uW27xJzZ47Ek0QODWsl-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.4;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1uW27xJzZ47Ek0QODWsl-2" target="1uW27xJzZ47Ek0QODWsl-3">
+        <mxCell id="1uW27xJzZ47Ek0QODWsl-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1uW27xJzZ47Ek0QODWsl-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1520" y="390" as="sourcePoint" />
-            <mxPoint x="1570" y="340" as="targetPoint" />
+            <mxPoint x="2000" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1uW27xJzZ47Ek0QODWsl-9" value="可以修改图纸" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1uW27xJzZ47Ek0QODWsl-7">
@@ -294,6 +294,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2890" y="1019.2893218813452" as="sourcePoint" />
             <mxPoint x="2890" y="969.2893218813452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1uW27xJzZ47Ek0QODWsl-64" value="BeanDefinition：Spring顶级核心接口，封装了生成Bean的一切原料" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="810" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="1uW27xJzZ47Ek0QODWsl-67" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="mwWmsGYRI-4Dez6pMQhU-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1980" y="810" as="sourcePoint" />
+            <mxPoint x="2020" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
