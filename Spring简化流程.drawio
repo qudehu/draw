@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T14:32:04.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="JA8ZLIvQMO1bAgxN_iVw" version="15.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-28T14:39:53.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="G3cORZC9mfJrtqWY_IzP" version="15.6.1" type="github">
   <diagram id="xfx5DvELZFT4wy8bLo-e" name="第 1 页">
     <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="840" y="-260" width="910" height="250" as="geometry" />
         </mxCell>
         <mxCell id="1uW27xJzZ47Ek0QODWsl-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="320" width="990" height="870" as="geometry" />
+          <mxGeometry x="2150" y="210" width="990" height="980" as="geometry" />
         </mxCell>
         <mxCell id="1uW27xJzZ47Ek0QODWsl-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="40" width="1030" height="940" as="geometry" />
@@ -70,10 +70,10 @@
         <mxCell id="mwWmsGYRI-4Dez6pMQhU-12" value="根据客户的需求&lt;br&gt;（@Lazy，@Scope注解）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1121" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mwWmsGYRI-4Dez6pMQhU-14" value="橱柜店&lt;br&gt;（@ApplicationContext）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-14" value="橱柜店&lt;br&gt;（@XmlApplicationContext）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1250" y="340" width="300" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="mwWmsGYRI-4Dez6pMQhU-16" value="衣柜店&lt;br&gt;（xmlApplicationContext）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-16" value="衣柜店&lt;br&gt;（@ApplicationContext）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1250" y="740" width="300" height="170" as="geometry" />
         </mxCell>
         <mxCell id="mwWmsGYRI-4Dez6pMQhU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mwWmsGYRI-4Dez6pMQhU-21" target="mwWmsGYRI-4Dez6pMQhU-23" edge="1">
@@ -304,6 +304,18 @@
             <mxPoint x="1980" y="810" as="sourcePoint" />
             <mxPoint x="2020" y="760" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1uW27xJzZ47Ek0QODWsl-68" value="BeanFactory：Spring顶级核心接口，通过简单工厂模式，负责生产Bean" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="230" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1uW27xJzZ47Ek0QODWsl-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="1uW27xJzZ47Ek0QODWsl-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2290" y="300" as="sourcePoint" />
+            <mxPoint x="2340" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1uW27xJzZ47Ek0QODWsl-72" value="扩展点" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="-280" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
