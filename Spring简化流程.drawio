@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T13:04:53.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.5.9" etag="xvljV1pKHCvmnl6Ki29Q" type="github"><diagram id="xfx5DvELZFT4wy8bLo-e">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-28T13:21:54.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="QjsKtSPTDyuzZmxsqxS2" version="15.5.9" type="github">
+  <diagram id="xfx5DvELZFT4wy8bLo-e" name="第 1 页">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mwWmsGYRI-4Dez6pMQhU-1" target="mwWmsGYRI-4Dez6pMQhU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-6" value="获取到这些楼盘" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mwWmsGYRI-4Dez6pMQhU-5">
+          <mxGeometry x="0.1333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-1" value="住户（xml配置&lt;br&gt;配置类等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-3" value="获取" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mwWmsGYRI-4Dez6pMQhU-2" target="mwWmsGYRI-4Dez6pMQhU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-2" value="销售（BeanDefinitionReader）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="235" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mwWmsGYRI-4Dez6pMQhU-4" target="mwWmsGYRI-4Dez6pMQhU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-4" value="BeanDefinitionScanner会进行扫描，从而得到那些住户会买柜子（带有@Component注解）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="480" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-7" value="得到需要买柜子的住户（带有@Component注解的class）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mwWmsGYRI-4Dez6pMQhU-10" value="销售（BeanDefinitionReader）会去获取住户的一些信息，之后进行一些筛选、扫描（BeanDefinitionScanner）获取到真正需要买柜子的住户（带有@Component注解的class），例如从100个住户中筛选出10个需要买的住户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="230" width="340" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
