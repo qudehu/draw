@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T10:08:07.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="a7rqX0plCKgRsOS4pzmu" version="15.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T10:45:51.375Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="XQqdseqzb8hbbFRvCwI3" version="15.6.2" type="github">
   <diagram id="5w2NXvA2qUq6tAWD_qzD" name="第 1 页">
-    <mxGraphModel dx="1201" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2240" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,7 +191,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J_k8vYTDvHg9-RJwA689-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.004;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-9" target="J_k8vYTDvHg9-RJwA689-99">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="776" y="1710" />
+              <mxPoint x="301" y="1710" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="J_k8vYTDvHg9-RJwA689-103" value="5-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J_k8vYTDvHg9-RJwA689-102">
           <mxGeometry x="0.6188" y="2" relative="1" as="geometry">
@@ -204,6 +209,54 @@
         <mxCell id="J_k8vYTDvHg9-RJwA689-109" value="5-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J_k8vYTDvHg9-RJwA689-108">
           <mxGeometry x="0.8308" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-9" target="J_k8vYTDvHg9-RJwA689-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-112" value="5-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J_k8vYTDvHg9-RJwA689-111">
+          <mxGeometry x="0.8138" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-9" target="J_k8vYTDvHg9-RJwA689-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-115" value="5-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J_k8vYTDvHg9-RJwA689-114">
+          <mxGeometry x="0.8185" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-9" target="J_k8vYTDvHg9-RJwA689-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-118" value="5-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J_k8vYTDvHg9-RJwA689-117">
+          <mxGeometry x="0.849" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-9" target="J_k8vYTDvHg9-RJwA689-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-121" value="5-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J_k8vYTDvHg9-RJwA689-120">
+          <mxGeometry x="0.8775" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-9" target="J_k8vYTDvHg9-RJwA689-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-125" value="5-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J_k8vYTDvHg9-RJwA689-124">
+          <mxGeometry x="0.8917" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-9" target="J_k8vYTDvHg9-RJwA689-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-128" value="5-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J_k8vYTDvHg9-RJwA689-127">
+          <mxGeometry x="0.8612" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J_k8vYTDvHg9-RJwA689-9" value="refresh" style="whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
@@ -325,29 +378,47 @@
             <mxPoint x="1090" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J_k8vYTDvHg9-RJwA689-88" value="对于注解方式：和主流程关系不大，仅仅是添加了一个序列化ID&lt;br&gt;对于XML方式，会在这个方法中实现加载Bean定义，并使用耦合的方式，通过reader读取xml，解析成resource对象（耦合：依次执行下来为reader-scanner-registry）" style="whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="J_k8vYTDvHg9-RJwA689-88" value="ObtainFreshBeanFactory（）；&lt;br&gt;对于注解方式：和主流程关系不大，仅仅是添加了一个序列化ID&lt;br&gt;对于XML方式，会在这个方法中实现加载Bean定义，并使用耦合的方式，通过reader读取xml，解析成resource对象（耦合：依次执行下来为reader-scanner-registry）" style="whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="310" y="1086" width="250" height="103" as="geometry" />
         </mxCell>
-        <mxCell id="J_k8vYTDvHg9-RJwA689-91" value="主要做了一些属性填充的一些工作：包括且不限于，添加了两个后置处理器：ApplicationContextAwareProcessor和ApplicationListenerDetector，还设置了忽略自动装配以及允许自动装配的接口，并且会判断某个Bean是否存在，不存在则使用单例模式创建该Bean，同时也设置了Bean表达式的解析器" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="J_k8vYTDvHg9-RJwA689-91" value="prepareBeanFactory（BeanFactory）&lt;br&gt;主要做了一些属性填充的一些工作：包括且不限于，添加了两个后置处理器：ApplicationContextAwareProcessor和ApplicationListenerDetector，还设置了忽略自动装配以及允许自动装配的接口，并且会判断某个Bean是否存在，不存在则使用单例模式创建该Bean，同时也设置了Bean表达式的解析器" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="110" y="1270" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="J_k8vYTDvHg9-RJwA689-93" value="prepareRefresh-准备上下文环境，和主流程关系不大，保存了容器的启动时间，启动标志等" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="J_k8vYTDvHg9-RJwA689-93" value="prepareRefresh（）&lt;br&gt;准备上下文环境，和主流程关系不大，保存了容器的启动时间，启动标志等" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="430" y="930" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="J_k8vYTDvHg9-RJwA689-96" value="这是一个空方法-留给子类去实现该接口" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1500" width="120" height="60" as="geometry" />
+        <mxCell id="J_k8vYTDvHg9-RJwA689-96" value="PostProcessBeanFactory（BeanFactory）&lt;br&gt;这是一个空方法-留给子类去实现该接口" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1500" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J_k8vYTDvHg9-RJwA689-99" value="执行自定义的BeanFactoryPostProcessor和内置的BeanFactoryPostProcessor（首先会执行BeanDefinitionRegistryPostProcessor（注册Bean定义），之后会执行BeanFactoryPostProcessor（修改Bean定义））" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1650" width="250" height="106" as="geometry" />
+        <mxCell id="J_k8vYTDvHg9-RJwA689-99" value="invokeBeanFactoryPostProcessors（BeanFactory）&lt;br&gt;执行自定义的BeanFactoryPostProcessor和内置的BeanFactoryPostProcessor（首先会执行BeanDefinitionRegistryPostProcessor（注册Bean定义），之后会执行BeanFactoryPostProcessor（修改Bean定义））" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1640" width="300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="J_k8vYTDvHg9-RJwA689-104" value="重要" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1660" width="60" height="30" as="geometry" />
+          <mxGeometry x="270" y="1640" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J_k8vYTDvHg9-RJwA689-105" value="重要" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="656" y="810" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="J_k8vYTDvHg9-RJwA689-106" value="注册BeanPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="344" y="1950" width="140" height="70" as="geometry" />
+        <mxCell id="J_k8vYTDvHg9-RJwA689-106" value="registryBeanPostProcessors（BeanFactory）&lt;br&gt;注册BeanPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="344" y="1950" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-110" value="initMessageSource&lt;br&gt;初始化国际化资源处理器" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2210" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-113" value="initApplicationEventMulticaster创建事件多播器" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="2420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-116" value="onFresh&lt;br&gt;同样也是一个空方法，留给子类去实现，SpringBoot是从这个方法启动tomcat的" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="2620" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-119" value="registryListeners（）&lt;br&gt;把我们的事件注册到事件多播器上" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1170.5" y="2840" width="189" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-122" value="finishBeanFactoryInitialization（BeanFactory）&lt;br&gt;实例化我们剩余的Bean" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1170.5" y="3040" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J_k8vYTDvHg9-RJwA689-126" value="finishRefresh（）&lt;br&gt;刷新容器-发布刷新事件，Springcloud是从这里启动的" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="3270" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
