@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T09:35:47.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="PM-BsRzgwYvYSruoNk0h" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T09:39:25.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="CKUY5ZDngme-Qoc-n_qK" version="15.5.9" type="github">
   <diagram id="5w2NXvA2qUq6tAWD_qzD" name="第 1 页">
     <mxGraphModel dx="7912" dy="3226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2055,8 +2055,8 @@
             <mxPoint x="-4090" y="-890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEHs8EKbU37C4yOlJ6Ag-168" value="递归循环获取类的信息" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="-3014" y="-1700" width="120" height="60" as="geometry" />
+        <mxCell id="XEHs8EKbU37C4yOlJ6Ag-168" value="递归处理内部类，但是一般都不使用内部类" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="-3014" y="-1700" width="134" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XEHs8EKbU37C4yOlJ6Ag-171" value="处理@PropertySource注解，用来加载properties文件" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-2820" y="-1720" width="120" height="60" as="geometry" />
@@ -2138,7 +2138,7 @@
         <mxCell id="XEHs8EKbU37C4yOlJ6Ag-201" value="处理@Import注解" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-2290" y="-1690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XEHs8EKbU37C4yOlJ6Ag-204" value="获取我们配置中所有标注了@Bean的方法" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;sketch=0;" vertex="1" parent="1">
+        <mxCell id="XEHs8EKbU37C4yOlJ6Ag-204" value="获取我们配置中所有标注了@Bean的方法，并将其添加到一个Set集合中" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-1950" y="-1680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XEHs8EKbU37C4yOlJ6Ag-206" value="处理配置类接口=默认方法的@Bean" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;sketch=0;" vertex="1" parent="1">
@@ -2149,6 +2149,15 @@
         </mxCell>
         <mxCell id="XEHs8EKbU37C4yOlJ6Ag-210" value="处理@ImportResource注解" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="-2120" y="-1775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XEHs8EKbU37C4yOlJ6Ag-216" value="&lt;span style=&quot;color: rgb(36 , 41 , 46) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , , &amp;#34;pingfang sc&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , , &amp;#34;heiti&amp;#34; , , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;ComponentScan注解除了最常用的basePackage之外，还有includeFilters，excludeFilters等&lt;/span&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="-2550" y="-2020" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XEHs8EKbU37C4yOlJ6Ag-217" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEHs8EKbU37C4yOlJ6Ag-216" target="XEHs8EKbU37C4yOlJ6Ag-178">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2710" y="-1840" as="sourcePoint" />
+            <mxPoint x="-2660" y="-1890" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
