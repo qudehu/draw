@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T00:56:34.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="w3CwhSnAsK6_olabz_ed" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T00:57:35.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="HWivFdZFYSeMcaz5reDq" version="15.5.9" type="github">
   <diagram id="5w2NXvA2qUq6tAWD_qzD" name="第 1 页">
     <mxGraphModel dx="7958" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -954,6 +954,14 @@
             <mxPoint x="-3010" y="1550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XEHs8EKbU37C4yOlJ6Ag-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j90pp0gv9OP2hR0MzYcj-103" target="XEHs8EKbU37C4yOlJ6Ag-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XEHs8EKbU37C4yOlJ6Ag-3" value="根据调用链进行重新调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XEHs8EKbU37C4yOlJ6Ag-2">
+          <mxGeometry x="-0.1486" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="j90pp0gv9OP2hR0MzYcj-103" value="执行ConfigurationClassPostProcessors的postProcessBeanDefinitionRegistry方法" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3620" y="1525" width="240" height="85" as="geometry" />
         </mxCell>
@@ -1402,6 +1410,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-3710" y="1490" as="sourcePoint" />
             <mxPoint x="-3680" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XEHs8EKbU37C4yOlJ6Ag-1" value="&lt;span&gt;processConfigBeanDefinitions(registry)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3635" y="1189" width="270" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="XEHs8EKbU37C4yOlJ6Ag-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="j90pp0gv9OP2hR0MzYcj-247">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3560" y="1411" as="sourcePoint" />
+            <mxPoint x="-3570" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
