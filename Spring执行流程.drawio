@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T12:51:06.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="fCfP9uppMVWArgKQn0YH" version="15.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T13:35:46.076Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="7W0CVpA57SQN_pjBSUH7" version="15.6.3" type="github">
   <diagram id="5w2NXvA2qUq6tAWD_qzD" name="第 1 页">
-    <mxGraphModel dx="7444" dy="5142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7617" dy="5239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -570,8 +570,80 @@
         <mxCell id="J_k8vYTDvHg9-RJwA689-119" value="registryListeners（）&lt;br&gt;把我们的事件注册到事件多播器上" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1170.5" y="2840" width="189" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-122" target="gV87aEcMjow4xjaCOsVU-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-134" value="5-11-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gV87aEcMjow4xjaCOsVU-127">
+          <mxGeometry x="0.8403" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-122" target="gV87aEcMjow4xjaCOsVU-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-135" value="5-11-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gV87aEcMjow4xjaCOsVU-129">
+          <mxGeometry x="0.8849" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-122" target="gV87aEcMjow4xjaCOsVU-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-136" value="5-11-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gV87aEcMjow4xjaCOsVU-131">
+          <mxGeometry x="0.9433" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-122" target="gV87aEcMjow4xjaCOsVU-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-137" value="5-11-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gV87aEcMjow4xjaCOsVU-133">
+          <mxGeometry x="0.9278" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="J_k8vYTDvHg9-RJwA689-122" value="finishBeanFactoryInitialization（BeanFactory）&lt;br&gt;实例化我们剩余的Bean" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1170.5" y="3040" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-126" target="gV87aEcMjow4xjaCOsVU-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-150" value="5-12-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gV87aEcMjow4xjaCOsVU-141">
+          <mxGeometry x="0.6983" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-126" target="gV87aEcMjow4xjaCOsVU-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-151" value="5-12-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gV87aEcMjow4xjaCOsVU-143">
+          <mxGeometry x="0.855" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-126" target="gV87aEcMjow4xjaCOsVU-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-152" value="5-12-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gV87aEcMjow4xjaCOsVU-145">
+          <mxGeometry x="0.9323" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-126" target="gV87aEcMjow4xjaCOsVU-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-153" value="5-12-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gV87aEcMjow4xjaCOsVU-147">
+          <mxGeometry x="0.9121" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-126" target="gV87aEcMjow4xjaCOsVU-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-154" value="5-12-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gV87aEcMjow4xjaCOsVU-149">
+          <mxGeometry x="0.9261" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="J_k8vYTDvHg9-RJwA689-126" value="finishRefresh（）&lt;br&gt;刷新容器-发布刷新事件，Springcloud是从这里启动的" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1310" y="3270" width="200" height="80" as="geometry" />
@@ -2616,6 +2688,136 @@
         </mxCell>
         <mxCell id="gV87aEcMjow4xjaCOsVU-107" value="返回解析信息，解析信息存放在Set集合中，类型为BeanDefinition" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="2790" y="-3520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-110" value="主要是实例化和注册BeanFactory中扩展的BeanPostProcessor，例如AutowiredAnnotationBeanPostProcessor、&lt;br&gt;RequiredAnnotationBeanPostProcessor、&lt;br&gt;CommonAnnotationBeanPostProcessor" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1850" width="234" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-111" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-110" target="J_k8vYTDvHg9-RJwA689-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="2110" as="sourcePoint" />
+            <mxPoint x="630" y="2060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-112" value="初始化国际化资源处理器" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="974" y="2140" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-113" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-112" target="J_k8vYTDvHg9-RJwA689-110">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="2170" as="sourcePoint" />
+            <mxPoint x="1230" y="2120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-114" value="创建事件多播器，和事件相关" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1034" y="2338" width="96" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-115" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-114" target="J_k8vYTDvHg9-RJwA689-113">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="2430" as="sourcePoint" />
+            <mxPoint x="1280" y="2380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-116" value="模板方法，在容器刷新的时候可以自定义逻辑" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2545" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-117" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="2580" as="sourcePoint" />
+            <mxPoint x="1180" y="2660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-118" value="注册监听器，广播，事件监听使用" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="2790" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-119" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-118" target="J_k8vYTDvHg9-RJwA689-119">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="2980" as="sourcePoint" />
+            <mxPoint x="1070" y="2930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-120" value="实例化所有剩余的Bean，并且在这个时候的实例化过程中，BeanPostProcessor已经开始起作用" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="2970" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-121" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-120" target="J_k8vYTDvHg9-RJwA689-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="3020" as="sourcePoint" />
+            <mxPoint x="1200" y="2970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-122" value="我们的Bean都是在这里创建出来的" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="2960" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-123" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-122" target="J_k8vYTDvHg9-RJwA689-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1450" y="3010" as="sourcePoint" />
+            <mxPoint x="1500" y="2960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-124" value="容器刷新，发布刷新事件&lt;br&gt;还包括-清除上下文资源缓存，初始化上下文的生命周期处理器，并对其进行刷新，发布Event事件告知对应的Listener去进行相应" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="3190" width="187.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-125" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-124" target="J_k8vYTDvHg9-RJwA689-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="3310" as="sourcePoint" />
+            <mxPoint x="1280" y="3260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-126" value="为我们的Bean工厂创建类型装换器" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="2970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-128" value="处理关于Aspectj" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="2950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-130" value="冻结所有BeanDefinition，这个时候BeanDefinition将不能进行修改" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="2960" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-132" value="实例化我们剩余的Bean" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="2930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-138" value="这个过程包含实例化，填充属性，初始化完成" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1958" y="2850" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-139" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-138" target="gV87aEcMjow4xjaCOsVU-132">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2130" y="2890" as="sourcePoint" />
+            <mxPoint x="2180" y="2840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-140" value="清除上下文级别的资源缓存" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="3180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-142" value="注册lifecycleProcessor生命周期处理器，在启动或关闭容器时候对Bean的状态进行更新" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1756" y="3160" width="134" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-144" value="实现SmartLifeCycle并设置为isAutoStartUp，自动启动的时候调用start方法" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1953" y="3190" width="137" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-146" value="发布容器启动完毕事件" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="3150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-148" value="注册当前Spring容器到LiveBeanView，提供Servlet在看查看所有的Bean json，为了执行Spring Tool Suite的智能提示" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="3130" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-155" value="添加早期事件" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="3210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-156" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-146" target="gV87aEcMjow4xjaCOsVU-155">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2680" y="3060" as="sourcePoint" />
+            <mxPoint x="2730" y="3010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2210" y="3120" />
+              <mxPoint x="2720" y="3120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-157" value="一定要发布事件才能添加早期事件、只有当执行Refresh方法的时候-RegistryListener-才会将earlyApplicationEvent赋值为null，所以RegistryListener之前的事件都是早期事件" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="3290" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gV87aEcMjow4xjaCOsVU-158" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gV87aEcMjow4xjaCOsVU-157" target="gV87aEcMjow4xjaCOsVU-155">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2570" y="3280" as="sourcePoint" />
+            <mxPoint x="2620" y="3230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
