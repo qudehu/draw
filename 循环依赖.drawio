@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T13:42:09.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3h9RTuEYChFaq0OuilY4" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T13:57:13.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="TDiOFyFcFZpzo9CQ9JUJ" version="15.6.5" type="github">
   <diagram id="7Mt5CVVSelNxjymzTzBY" name="第 1 页">
     <mxGraphModel dx="1201" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,6 +331,15 @@
         </mxCell>
         <mxCell id="L_R_OmYirzBTy0bWvh7I-123" value="使用一级缓存可以解决循环依赖问题，但是无法保证多线程环境下获取Bean的完整性" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;strokeColor=#d79b00;fillColor=#ffe6cc;verticalAlign=middle;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2660" y="610" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-124" value="如果线程1，创建了对象A之前获取对象A，获取不到，之后创建了对象A并放入了缓存对象，线程2去缓存中获取A，就获取到了，但这个时候缓存中的对象A是不完整的" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2575" y="510" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-125" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-124" target="L_R_OmYirzBTy0bWvh7I-123">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2570" y="640" as="sourcePoint" />
+            <mxPoint x="2620" y="590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
