@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T14:02:24.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3RodkAmtt0rhlJYNqTFz" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T14:02:55.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="QzH8AOe_1AzySdHJUXJ0" version="15.6.5" type="github">
   <diagram id="7Mt5CVVSelNxjymzTzBY" name="第 1 页">
     <mxGraphModel dx="1201" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,6 +343,9 @@
         </mxCell>
         <mxCell id="L_R_OmYirzBTy0bWvh7I-127" value="二级缓存的作用就是为了将成熟的Bean和不成熟的Bean分离开来，避免获取不到完整的Bean，所以在存储的时候，先存储到二级缓存，将成熟的Bean存储到一级缓存，在进行获取的时候，如果从一级缓存中获取到了就从一级缓存中拿，如果一级缓存中获取不到，就去二级缓存中拿" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="3420" y="40" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-128" value="参考53：24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3480" y="190" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
