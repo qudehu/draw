@@ -1,1 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T14:07:03.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.6.3" etag="OOTEjTjGJnS60hlaBNKw" type="github"><diagram id="7Mt5CVVSelNxjymzTzBY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-02T12:36:42.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="SGCEW3cq-S8ce5YFG3rd" version="15.6.5" type="github">
+  <diagram id="7Mt5CVVSelNxjymzTzBY" name="第 1 页">
+    <mxGraphModel dx="1201" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-1" value="什么情况下会出现循环依赖" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-2" target="L_R_OmYirzBTy0bWvh7I-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-2" value="Bean&amp;nbsp; A" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=default;strokeColor=default;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-3" value="begin" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-4" value="@Autowired&lt;br&gt;B&amp;nbsp; b" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-5" target="L_R_OmYirzBTy0bWvh7I-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-5" value="实例化" style="whiteSpace=wrap;html=1;rounded=0;verticalAlign=middle;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;strokeColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-7" target="L_R_OmYirzBTy0bWvh7I-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-11" value="加载B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="L_R_OmYirzBTy0bWvh7I-10">
+          <mxGeometry x="-0.0839" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-7" value="属性填充&lt;br&gt;解析@Autowired注解" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-9" value="通过getBean从缓存中去取" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="780" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-12" target="L_R_OmYirzBTy0bWvh7I-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-12" value="Bean&amp;nbsp; B" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=default;strokeColor=default;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-13" value="@Autowired&lt;br&gt;A&amp;nbsp; a" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="780" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-14" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-9" target="L_R_OmYirzBTy0bWvh7I-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="540" as="sourcePoint" />
+            <mxPoint x="1090" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-15" target="L_R_OmYirzBTy0bWvh7I-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-15" value="实例化" style="whiteSpace=wrap;html=1;rounded=0;verticalAlign=middle;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="780" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-17" target="L_R_OmYirzBTy0bWvh7I-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-21" value="加载A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="L_R_OmYirzBTy0bWvh7I-20">
+          <mxGeometry x="-0.071" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-17" value="属性赋值&lt;br&gt;解析@Autowired" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="780" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-19" value="通过getBean从缓存中去取" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-22" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-19" target="L_R_OmYirzBTy0bWvh7I-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="260" as="sourcePoint" />
+            <mxPoint x="650" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-23" value="" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="720" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-29" value="&lt;span&gt;成熟A&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d79b00;fillColor=#ffe6cc;verticalAlign=middle;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="370" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-30" value="map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="400" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-31" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="650" as="sourcePoint" />
+            <mxPoint x="410" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-32" value="在属性填充之后，初始化完成，就会将对象存放到&lt;br&gt;缓存Map中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="L_R_OmYirzBTy0bWvh7I-31">
+          <mxGeometry x="-0.1625" relative="1" as="geometry">
+            <mxPoint y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-38" value="" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="781" y="-130" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-39" value="&lt;span&gt;成熟A&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="801" y="-130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-40" value="map" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="846" y="-160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-41" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fillColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-17" target="L_R_OmYirzBTy0bWvh7I-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="-290" as="sourcePoint" />
+            <mxPoint x="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-42" value="在属性填充之后，初始化完成，就会将对象存放到&lt;br&gt;缓存Map中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="L_R_OmYirzBTy0bWvh7I-41">
+          <mxGeometry x="-0.1625" relative="1" as="geometry">
+            <mxPoint x="2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="580" as="sourcePoint" />
+            <mxPoint x="750" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-44" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="50" as="sourcePoint" />
+            <mxPoint x="1110" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-45" value="但是无法达到，一直陷入死循环之中，卡在赋值" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="631" y="630" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-46" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="630" as="sourcePoint" />
+            <mxPoint x="680" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-47" value="但是无法达到，一直陷入死循环之中，卡在赋值" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-40" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-48" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489" y="-40" as="sourcePoint" />
+            <mxPoint x="660" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
