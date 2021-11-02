@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T13:37:53.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Od0Vd0Q-1zIuG6X2JiK9" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T13:39:37.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="oeCGw2DFzOaSSnKF7JTD" version="15.6.5" type="github">
   <diagram id="7Mt5CVVSelNxjymzTzBY" name="第 1 页">
     <mxGraphModel dx="1201" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -328,6 +328,9 @@
           <mxGeometry x="0.4165" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-123" value="使用一级缓存可以解决循环依赖问题，但是无法保证多线程环境下获取Bean的完整性" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;strokeColor=#d79b00;fillColor=#ffe6cc;verticalAlign=middle;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="610" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
