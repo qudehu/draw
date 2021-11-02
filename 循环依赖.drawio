@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T13:08:11.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="pDrDdLEV-J6gvoloP3D5" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T13:14:00.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="6ayY1jK75ODhZmHmzgB8" version="15.6.5" type="github">
   <diagram id="7Mt5CVVSelNxjymzTzBY" name="第 1 页">
     <mxGraphModel dx="1201" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-109" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="90" width="1440" height="610" as="geometry" />
+        </mxCell>
         <mxCell id="L_R_OmYirzBTy0bWvh7I-49" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontColor=default;strokeColor=default;fillColor=default;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="150" y="-190" width="1040" height="1040" as="geometry" />
         </mxCell>
@@ -154,7 +157,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="L_R_OmYirzBTy0bWvh7I-51" value="一级缓存解决循环依赖" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="-180" width="130" height="30" as="geometry" />
+          <mxGeometry x="2035" y="60" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L_R_OmYirzBTy0bWvh7I-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="L_R_OmYirzBTy0bWvh7I-53" target="L_R_OmYirzBTy0bWvh7I-57">
           <mxGeometry relative="1" as="geometry" />
@@ -326,6 +329,9 @@
           <mxGeometry x="-0.1457" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R_OmYirzBTy0bWvh7I-110" value="过程：A实例中通过@Autowired导入了B，B实例中通过@Autowired导入了A，如A先加载，在A实例化之后就会将A对象村放入Map缓存对象中，而后进行属性填充，从而加载到了B，此时B进行实例化，也会将对象存放入Map缓存中，之后进行属性填充，加载B实例中的A，从Map缓存中获取，从而完成B的实例化，之后再设置A的属性B。至此，A、B实例化结束" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=default;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="120" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
