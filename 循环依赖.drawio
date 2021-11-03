@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T13:54:36.362Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="5oB6J8iu5jSPk8iONKLC" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T14:18:16.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Oz-d5K9OyGFGvigVz62G" version="15.6.8" type="github">
   <diagram id="7Mt5CVVSelNxjymzTzBY" name="第 1 页">
-    <mxGraphModel dx="2002" dy="2294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1201" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -373,11 +373,6 @@
             <mxPoint x="3880" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3636" y="682.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RlzC71JplKeRwMho_cgY-11" value="属性填充&lt;br&gt;解析@Autowired注解" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="3576" y="557.5" width="120" height="60" as="geometry" />
         </mxCell>
@@ -494,233 +489,6 @@
             <mxPoint x="4480" y="62.5" as="sourcePoint" />
             <mxPoint x="4276" y="80" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-60" value="三级缓存解决循环依赖" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5301" y="22.5" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-62" target="RlzC71JplKeRwMho_cgY-66">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-62" value="Bean&amp;nbsp; A" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=default;strokeColor=default;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="4976" y="222.5" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-63" value="begin" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4976" y="192.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-64" value="@Autowired&lt;br&gt;B&amp;nbsp; b" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5016" y="272.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-66" target="RlzC71JplKeRwMho_cgY-70">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-66" value="实例化A" style="whiteSpace=wrap;html=1;rounded=0;verticalAlign=middle;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5016" y="412.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;strokeColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-70">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5406" y="392.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-68" value="加载B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="RlzC71JplKeRwMho_cgY-67">
-          <mxGeometry x="-0.0839" y="-1" relative="1" as="geometry">
-            <mxPoint x="32" y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-70">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5076" y="657.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-70" value="属性填充&lt;br&gt;解析@Autowired注解" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5016" y="532.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-72" target="RlzC71JplKeRwMho_cgY-75">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-72" value="Bean&amp;nbsp; B" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=default;strokeColor=default;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="5616" y="352.5" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-73" value="@Autowired&lt;br&gt;A&amp;nbsp; a" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5656" y="402.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-75" target="RlzC71JplKeRwMho_cgY-76">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-75" value="实例化B" style="whiteSpace=wrap;html=1;rounded=0;verticalAlign=middle;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5656" y="242.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-76" value="属性赋值&lt;br&gt;解析@Autowired" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5656" y="122.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-77" value="" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5346" y="312.5" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-78" value="&lt;span&gt;非成熟对象&lt;br&gt;A，B&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fillColor=default;verticalAlign=middle;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5371" y="312.5" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-79" value="map" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5286" y="337.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-80" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-66" target="RlzC71JplKeRwMho_cgY-78">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5386" y="462.5" as="sourcePoint" />
-            <mxPoint x="5436" y="412.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="5411" y="442.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-81" value="实例化后直接放入缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="RlzC71JplKeRwMho_cgY-80">
-          <mxGeometry x="-0.2738" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-82" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-75" target="RlzC71JplKeRwMho_cgY-78">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5446" y="242.5" as="sourcePoint" />
-            <mxPoint x="5496" y="192.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="5411" y="272.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-83" value="实例化后直接放入缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="RlzC71JplKeRwMho_cgY-82">
-          <mxGeometry x="-0.1368" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-84" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-76" target="RlzC71JplKeRwMho_cgY-85">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5446" y="172.5" as="sourcePoint" />
-            <mxPoint x="5446" y="152.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-85" value="getSingleton" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5371" y="137.5" width="80" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-86" value="出口" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5371" y="97.5" width="60" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-87" value="从缓存对象中获取非成熟对象A" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RlzC71JplKeRwMho_cgY-78">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5411" y="172.5" as="sourcePoint" />
-            <mxPoint x="5336" y="202.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-88" value="B完成" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-76" target="RlzC71JplKeRwMho_cgY-75">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5576" y="232.5" as="sourcePoint" />
-            <mxPoint x="5626" y="182.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-89" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.355;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-75" target="RlzC71JplKeRwMho_cgY-72">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5556" y="362.5" as="sourcePoint" />
-            <mxPoint x="5606" y="312.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-90" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-72" target="RlzC71JplKeRwMho_cgY-70">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5406" y="532.5" as="sourcePoint" />
-            <mxPoint x="5456" y="482.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-91" value="A完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="RlzC71JplKeRwMho_cgY-90">
-          <mxGeometry x="-0.1457" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-92" value="通过getBean从缓存中去取" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5496" y="112.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-93" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-77" target="RlzC71JplKeRwMho_cgY-94">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5446" y="562" as="sourcePoint" />
-            <mxPoint x="5566" y="562" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="5444" y="562.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-94" value="&lt;span style=&quot;font-family: &amp;quot;helvetica&amp;quot;&quot;&gt;通过getBean从缓存中去取&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;glass=0;labelBackgroundColor=none;fontColor=default;strokeColor=default;fillColor=default;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="5526" y="522.5" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-95" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.46;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-94" target="RlzC71JplKeRwMho_cgY-72">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5666" y="592.5" as="sourcePoint" />
-            <mxPoint x="5706" y="562.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="5708" y="562.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-96" value="getSingleton没有取到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="RlzC71JplKeRwMho_cgY-95">
-          <mxGeometry x="-0.3367" y="-1" relative="1" as="geometry">
-            <mxPoint x="37" y="-31" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-97" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.662;exitY=-0.037;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-77" target="RlzC71JplKeRwMho_cgY-85">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5436" y="272.5" as="sourcePoint" />
-            <mxPoint x="5486" y="222.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-98" value="返回A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="RlzC71JplKeRwMho_cgY-97">
-          <mxGeometry x="0.4165" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-99" value="" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5011" y="1020" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-101" value="map" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4951" y="1045" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-102" value="三级缓存" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5476" y="337.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-103" value="一级缓存" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5141" y="1045" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-104" value="" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5651" y="-27.5" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-105" value="&lt;span&gt;成熟对象&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fillColor=default;verticalAlign=middle;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5676" y="-27.5" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-106" value="map" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5591" y="-2.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-107" value="一级缓存" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5781" y="-2.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-108" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-76" target="RlzC71JplKeRwMho_cgY-105">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5920" y="37.5" as="sourcePoint" />
-            <mxPoint x="5970" y="-12.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-111" target="RlzC71JplKeRwMho_cgY-113">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-111" value="初始化" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5016" y="660" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RlzC71JplKeRwMho_cgY-113" target="RlzC71JplKeRwMho_cgY-115">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="5328" y="840" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-113" value="正常Bean创建动态代理Proxy A" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5256" y="660" width="144" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-115" value="将代理对象Proxy A存放到二级缓存中" style="whiteSpace=wrap;html=1;rounded=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="4980" y="800" width="200" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-100" value="&lt;span&gt;代理对象Proxy A&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="5036" y="830" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RlzC71JplKeRwMho_cgY-117" value="&lt;span style=&quot;font-family: &amp;quot;helvetica&amp;quot;&quot;&gt;通过getBean从缓存中去取&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;glass=0;labelBackgroundColor=none;fontColor=default;strokeColor=default;fillColor=default;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="3800" y="610" width="80" height="80" as="geometry" />
@@ -972,7 +740,7 @@
             <mxPoint x="4275" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RlzC71JplKeRwMho_cgY-171" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1">
+        <mxCell id="RlzC71JplKeRwMho_cgY-171" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="4135" y="860" as="sourcePoint" />
             <mxPoint x="4275" y="860" as="targetPoint" />
