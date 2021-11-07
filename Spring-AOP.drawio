@@ -1,1 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T12:48:40.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.0" etag="rj6KHLMPSVqgRaU2jqtv" type="github"><diagram id="HYauXBz-CZuOpG70YTtx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-07T13:17:29.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="yTZtEy2wXBph2KZy2WbR" version="15.7.0" type="github">
+  <diagram id="HYauXBz-CZuOpG70YTtx" name="第 1 页">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-4" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="450" width="330" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-1" value="切面（Aspect）：在AOP中切面是指的就是切面类，切面类中管理着增强的公共代码（通知内容）和切入方式（切点及切点表达式）&lt;br&gt;&lt;br&gt;连接点（Join Point）：在Spring-AOP中，一个连接点代表一个方法的执行，就是增强的方法&lt;br&gt;&lt;br&gt;通知（Advice）：在切面的某个特定的连接点上执行的动作。通知有多种类型，包括“around”、“before”、“after”等，在许多的AOP框架中，包括Spring在内，都是以拦截器做通知类型的，并维护着一个以连接点为中心的拦截器链&lt;br&gt;&lt;br&gt;目标对象（Target）：将要被增强的对象&lt;br&gt;&lt;br&gt;切点（Pointcut）：匹配连接点的断言，通知和切点表达式相关联，并在满足这个切点的连接点上运行（例如：当执行某个特定名称的名称的方法时）。切点表达式如何和连接点匹配是AOP的核心，Spring是使用AspectJ表达式&lt;br&gt;&lt;br&gt;顾问（Advisor）：顾问是Advice的一种包装形式，Advisor是PointCut以及Advice的一个结合，用来管理Advice和PointCut，应用无需关心&lt;br&gt;&lt;br&gt;织入（Weaving）：将通知切入连接点的过程叫做织入&lt;br&gt;&lt;br&gt;引入（Introductions）：可以将其他的接口和实现动态的引入到TargetClass中" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="790" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-2" value="切点&lt;br&gt;&lt;br&gt;切点表达式" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="235" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-3" value="通知Advice&lt;br&gt;&lt;br&gt;需要增强跟业务没有关系的公共代码" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="235" y="650" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-5" value="切面Aspect&lt;br&gt;---切面类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="450" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-6" value="Calculator" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="450" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-7" value="TulingCalculate(Target)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="510" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-8" value="add&lt;br&gt;连接点" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-9" value="dvi&lt;br&gt;连接点" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="770" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-10" value="sub&lt;br&gt;连接点" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="640" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-11" value="multi" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="900" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-13" value="code" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="645" width="120" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-14" value="code" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="645" width="120" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-15" value="code" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="770" y="645" width="120" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-16" value="code" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="900" y="645" width="120" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Tc-WWwIuOlAWOgFDsJlV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="730" as="sourcePoint" />
+            <mxPoint x="1120" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-18" value="织入&lt;br&gt;创建动态代理的过程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Tc-WWwIuOlAWOgFDsJlV-17">
+          <mxGeometry x="0.9059" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-19" value="切面和被增强的方法所连接的点就叫做连接点（其实就是我们被代理的方法）" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="950" width="670" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-20" value="add" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="970" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-21" value="sub" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1000" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-22" value="sub" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1030" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-23" value="multi" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1060" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tc-WWwIuOlAWOgFDsJlV-25" value="PointCut用来执行被增强方法的方式，由他决定哪些方法需要被增强，那些方式不需要被增强，需要使用切点表达式" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1200" width="686" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
