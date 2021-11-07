@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T00:56:23.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="04J8CPjSCyvy_1sZbjU5" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T01:08:11.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="EckByisF5O_ncx1Ezqqm" version="15.7.0" type="github">
   <diagram id="7LRNWTfj9UgesFScxTXY" name="第 1 页">
     <mxGraphModel dx="1422" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-43" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=35;fontColor=#CC0000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="970" y="340" width="840" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="AGUYlobTXLeBJ3e-e3ZP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-1" target="AGUYlobTXLeBJ3e-e3ZP-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -141,6 +144,46 @@
         </mxCell>
         <mxCell id="AGUYlobTXLeBJ3e-e3ZP-28" value="1，前端控制器DispatcherServlet由框架提供。作用：接受请求，进行请求转发，处理相应结果&lt;br&gt;&lt;br&gt;2，处理器映射器HandlerMapping由框架提供。作用：根据请求url，找到对应的Handler&lt;br&gt;&lt;br&gt;3，处理器适配器HandlerAdapter由框架提供。作用：调用处理器（Handler&amp;nbsp; |&amp;nbsp; &amp;nbsp;Controller）的方法&lt;br&gt;&lt;br&gt;4，处理器Handler，又名Controller，手动编写。作用：接受用户请求，调用业务方法处理请求&lt;br&gt;&lt;br&gt;5，视图解析器ViewResolver由框架提供。作用：试图解析，把逻辑视图名称解析成真正的屋里视图，支持多种试图解析技术：HTML、JSP、FreeMarker....&lt;br&gt;&lt;br&gt;6，页面资源，手动编写。作用：将数据展示给客户" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="940" y="-40" width="470" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-29" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="420" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-30" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;HelloController&lt;/span&gt;&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="465" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-31" value="SpringMVC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-32" value="Service" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="465" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-30" target="AGUYlobTXLeBJ3e-e3ZP-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1460" y="500" as="sourcePoint" />
+            <mxPoint x="1510" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-34" value="Controller可以调用service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AGUYlobTXLeBJ3e-e3ZP-33">
+          <mxGeometry x="-0.1729" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-35" value="Service不可调用Controller" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-32" target="AGUYlobTXLeBJ3e-e3ZP-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1440" y="490" as="sourcePoint" />
+            <mxPoint x="1490" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-42" value="X" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=35;fontColor=#CC0000;" vertex="1" connectable="0" parent="AGUYlobTXLeBJ3e-e3ZP-35">
+          <mxGeometry x="-0.5286" relative="1" as="geometry">
+            <mxPoint x="9" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-44" value="由于Spring和SpringMVC是父子关系，WEB层容器-即SpringMVC，可以引用业务层容器-即Spring，而业务层容器无法访问容器层的Bean" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="650" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-45" value="Controller可以调用Service而Service不可调用Controller的原因" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="310" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
