@@ -1,1 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T00:33:48.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="9SJ3HL3CeHhhaRHf3AHp" version="15.7.0" type="github"><diagram id="7LRNWTfj9UgesFScxTXY" name="第 1 页">dZHBDoIwDIafZnfYUPSMiBdPHDwvrLIlg5IxA/r0QjbEBU16aL/+3b91hGXNWBjeySsK0IRGYiTsRCiNE0rJHJF4OpLuEgdqo4QXraBUL/Aw8vShBPSB0CJqq7oQVti2UNmAcWNwCGV31KFrx2vYgLLiektvSljp6IGmK7+AquXiHO+PrtPwRexf0ksucPhCLCcsM4jWZc2YgZ6Xt+zFzZ3/dD8XM9DaHwNTsp49FcEPsfwN</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-07T00:55:32.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="_OTgRLvtYQTBBvSNW4Ge" version="15.7.0" type="github">
+  <diagram id="7LRNWTfj9UgesFScxTXY" name="第 1 页">
+    <mxGraphModel dx="1422" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-1" target="AGUYlobTXLeBJ3e-e3ZP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-4" value="1,发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AGUYlobTXLeBJ3e-e3ZP-3">
+          <mxGeometry x="-0.13" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-1" value="客户端" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-8" value="2，通过处理器映射器查找处理器" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry x="0.4345" relative="1" as="geometry">
+            <mxPoint x="460" y="244" as="sourcePoint" />
+            <mxPoint x="460" y="99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="199" />
+              <mxPoint x="460" y="199" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-2" target="AGUYlobTXLeBJ3e-e3ZP-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="280" />
+              <mxPoint x="650" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-16" value="4，处理器适配器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AGUYlobTXLeBJ3e-e3ZP-14">
+          <mxGeometry x="-0.2857" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-21" value="8，进行视图解析" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-2" target="AGUYlobTXLeBJ3e-e3ZP-20">
+          <mxGeometry x="-0.4118" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="390" />
+              <mxPoint x="520" y="390" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-2" value="前端控制器&lt;br&gt;DispatcherServlet" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="245" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-7" value="处理器映射器&lt;br&gt;HandlerMapping" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.643;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-7" target="AGUYlobTXLeBJ3e-e3ZP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="140" as="sourcePoint" />
+            <mxPoint x="700" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-10" value="3，返回处理器执行链" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AGUYlobTXLeBJ3e-e3ZP-9">
+          <mxGeometry x="0.1737" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-11" value="处理器执行链-HandlerExecutionChain&lt;br&gt;包含HandlerInterceptor和Handler" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="110" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="260" as="sourcePoint" />
+            <mxPoint x="590" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-18" value="5，执行处理器方法" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-13" target="AGUYlobTXLeBJ3e-e3ZP-17">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="370" />
+              <mxPoint x="830" y="370" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-13" value="处理器适配器&lt;br&gt;HandlerAdapter" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-15" value="7，返回ModerAndView" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-13" target="AGUYlobTXLeBJ3e-e3ZP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="530" as="sourcePoint" />
+            <mxPoint x="740" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="602" y="316" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-17" value="Handler（处理器）&lt;br&gt;又名Controller" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-19" value="6，返回ModelAndView" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-17" target="AGUYlobTXLeBJ3e-e3ZP-13">
+          <mxGeometry x="-0.4" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="540" as="sourcePoint" />
+            <mxPoint x="580" y="490" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-20" value="视图解析器&lt;br&gt;ViewResolver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="468" y="430" as="sourcePoint" />
+            <mxPoint x="465" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-23" value="9，返回View对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AGUYlobTXLeBJ3e-e3ZP-22">
+          <mxGeometry x="-0.2667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-24" value="视图&lt;br&gt;HTML/JSP/FreeMaker等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="510" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-25" value="10，把Model填充到View中渲染视图" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-2" target="AGUYlobTXLeBJ3e-e3ZP-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="670" as="sourcePoint" />
+            <mxPoint x="290" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AGUYlobTXLeBJ3e-e3ZP-24" target="AGUYlobTXLeBJ3e-e3ZP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="430" as="sourcePoint" />
+            <mxPoint x="170" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-27" value="11，返回响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AGUYlobTXLeBJ3e-e3ZP-26">
+          <mxGeometry x="0.2483" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AGUYlobTXLeBJ3e-e3ZP-28" value="1，前端控制器DispatcherServlet由框架提供。作用：接受请求，进行请求转发，处理相应结果&lt;br&gt;&lt;br&gt;2，处理器映射器HandlerMapping由框架提供。作用：根据请求url，找到对应的Handler&lt;br&gt;&lt;br&gt;3，处理器适配器HandlerAdapter由框架提供。作用：调用处理器（Handler&amp;nbsp; |&amp;nbsp; &amp;nbsp;Controller）的方法&lt;br&gt;&lt;br&gt;4，处理器Handler，又名Controller，手动编写。作用：接受用户请求，调用业务方法处理请求&lt;br&gt;&lt;br&gt;5，视图解析器ViewResolver由框架提供。作用：试图解析，把逻辑视图名称解析成真正的屋里视图，支持多种试图解析技术：HTML、JSP、FreeMarker....&lt;br&gt;&lt;br&gt;6，页面资源，手动编写。作用：将数据展示给客户" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-40" width="470" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
