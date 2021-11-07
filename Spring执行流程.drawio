@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T12:19:42.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="vjc_5LtTEQSRKhABJmw5" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T12:31:15.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="kO54F46YQUnDgInfwofF" version="15.7.0" type="github">
   <diagram id="5w2NXvA2qUq6tAWD_qzD" name="第 1 页">
-    <mxGraphModel dx="7597" dy="5196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8038" dy="5430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -584,6 +584,54 @@
         </mxCell>
         <mxCell id="J_k8vYTDvHg9-RJwA689-116" value="onFresh&lt;br&gt;同样也是一个空方法，留给子类去实现，SpringBoot是从这个方法启动tomcat的" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1181" y="2620" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-119" target="ekOJa0vRPpaifzqjgSza-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-34" value="5-10-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ekOJa0vRPpaifzqjgSza-21">
+          <mxGeometry x="0.8373" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-119" target="ekOJa0vRPpaifzqjgSza-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-35" value="5-10-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ekOJa0vRPpaifzqjgSza-25">
+          <mxGeometry x="0.7915" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-119" target="ekOJa0vRPpaifzqjgSza-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-36" value="5-10-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ekOJa0vRPpaifzqjgSza-27">
+          <mxGeometry x="0.9139" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-119" target="ekOJa0vRPpaifzqjgSza-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-37" value="5-10-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ekOJa0vRPpaifzqjgSza-29">
+          <mxGeometry x="0.8634" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-119" target="ekOJa0vRPpaifzqjgSza-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-38" value="5-10-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ekOJa0vRPpaifzqjgSza-31">
+          <mxGeometry x="0.8611" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="J_k8vYTDvHg9-RJwA689-119" target="ekOJa0vRPpaifzqjgSza-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-39" value="5-10-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ekOJa0vRPpaifzqjgSza-33">
+          <mxGeometry x="0.946" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="J_k8vYTDvHg9-RJwA689-119" value="registryListeners（）&lt;br&gt;把我们的事件注册到事件多播器上" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1170.5" y="2840" width="189" height="70" as="geometry" />
@@ -2753,7 +2801,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gV87aEcMjow4xjaCOsVU-120" value="实例化所有剩余的Bean，并且在这个时候的实例化过程中，BeanPostProcessor已经开始起作用" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="2970" width="150" height="60" as="geometry" />
+          <mxGeometry x="970" y="2970" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gV87aEcMjow4xjaCOsVU-121" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="gV87aEcMjow4xjaCOsVU-120" target="J_k8vYTDvHg9-RJwA689-122" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2792,9 +2840,9 @@
           <mxGeometry x="2080" y="2930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gV87aEcMjow4xjaCOsVU-138" value="这个过程包含实例化，填充属性，初始化完成" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1958" y="2850" width="110" height="50" as="geometry" />
+          <mxGeometry x="2250" y="2975" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gV87aEcMjow4xjaCOsVU-139" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="gV87aEcMjow4xjaCOsVU-138" target="gV87aEcMjow4xjaCOsVU-132" edge="1">
+        <mxCell id="gV87aEcMjow4xjaCOsVU-139" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="gV87aEcMjow4xjaCOsVU-138" target="gV87aEcMjow4xjaCOsVU-132" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2130" y="2890" as="sourcePoint" />
             <mxPoint x="2180" y="2840" as="targetPoint" />
@@ -2995,6 +3043,36 @@
             <mxPoint x="1960" y="2420" as="sourcePoint" />
             <mxPoint x="2010" y="2370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-20" value="获取容器中的所有监听器对象，但是正常流程一般是不会有监听器的，因为监听器不会在这之前进行注册，在initApplicationEventMulticater后，在reGisterLisstener之前，只有一个可能，就是在onRefresh里面注册" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="2730" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ekOJa0vRPpaifzqjgSza-20" target="J_k8vYTDvHg9-RJwA689-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="2770" as="sourcePoint" />
+            <mxPoint x="1360" y="2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-23" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=12;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ekOJa0vRPpaifzqjgSza-20" target="J_k8vYTDvHg9-RJwA689-113">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1570" y="2630" as="sourcePoint" />
+            <mxPoint x="1620" y="2580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-24" value="把获取到的监听器对象注册到多播器上" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-26" value="获取BeanDefinition中的监听器对象，接口方式的监听器就是在这进行注册-注册到到多播器上，，在这个地方就是防止由于懒加载所导致的漏网之鱼" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="2710" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-28" value="把监听器名称注册到我们的多播器上" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-30" value="获取我们的早期事件，并把早起事件置空，之后就没有早期事件了" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="2610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ekOJa0vRPpaifzqjgSza-32" value="通过多播器进行事件的播发" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="2670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
